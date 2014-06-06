@@ -1,0 +1,4 @@
+name = UNHCR modules
+description = UNHCR custom modules.
+core = 7.x
+package = UNHCR
