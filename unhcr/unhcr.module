@@ -34,7 +34,7 @@ function unhcr_menu() {
 function unhcr_ajax_get_ajax($nid) {
   $node = node_load($nid);
 
-  return node_view($node);
+  return node_view($node,'token');
 }
 
 function unhcr_ajax_callback($page_callback_result) {
